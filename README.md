@@ -10,6 +10,6 @@ Sistema Completo de Locadora de Carros
 
 ## Componentes Utilizados
 * C# 6.0 (ou superior)
-  * Entity Framework
-    * SQL Express como banco de dados 
-      * Swagger para testes
+  Entity Framework
+  SQL Express como banco de dados 
+  Swagger para testes

@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj": {}
+    "/home/walther/work/projetos/psg-tads-2024-1-back-bd-waltherHumberto/codigo/Trabalho-prt1/Trabalho-prt1/Trabalho-prt1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj": {
+    "/home/walther/work/projetos/psg-tads-2024-1-back-bd-waltherHumberto/codigo/Trabalho-prt1/Trabalho-prt1/Trabalho-prt1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
+        "projectUniqueName": "/home/walther/work/projetos/psg-tads-2024-1-back-bd-waltherHumberto/codigo/Trabalho-prt1/Trabalho-prt1/Trabalho-prt1.csproj",
         "projectName": "Trabalho-prt1",
-        "projectPath": "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
-        "packagesPath": "C:\\Users\\walth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\obj\\",
+        "projectPath": "/home/walther/work/projetos/psg-tads-2024-1-back-bd-waltherHumberto/codigo/Trabalho-prt1/Trabalho-prt1/Trabalho-prt1.csproj",
+        "packagesPath": "/home/walther/.nuget/packages/",
+        "outputPath": "/home/walther/work/projetos/psg-tads-2024-1-back-bd-waltherHumberto/codigo/Trabalho-prt1/Trabalho-prt1/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\walth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/walther/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

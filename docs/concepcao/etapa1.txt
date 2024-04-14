@@ -1,0 +1,18 @@
+Modelo Conceitual:
+
+Veículo: {VeículoID, Marca, Modelo, Ano, Status, Placa, Cor}
+Cliente: {ClienteID, Nome, Endereço, Telefone}
+Reserva: {ReservaID, VeículoID, ClienteID, DataInicio, DataFim} 
+
+Definição de Chaves e Restrições:
+
+Veículo:
+    Chave Primária: VeiculoID
+    Restrições: Marca, Modelo, Status, Placa e Cor não podem ser nulos.
+Cliente:
+    Chave Primária: ClienteID
+    Restrições: Nome, Endereço e Telefone não podem ser nulos.
+Reserva:
+    Chave Primária: ReservaID
+    Chaves Estrangeiras: VeiculoID e ClienteID que referenciam Veiculo e Cliente respectivamente.
+    Restrições: DataInicio e DataFim não podem ser nulos e DataFim deve ser posterior a DataInicio.

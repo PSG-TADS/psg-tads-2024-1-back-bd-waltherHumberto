@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Trabalho_prt1
-build_property.ProjectDir = C:\Users\walth\Downloads\teste\Trabalho_Pratico_1\Trabalho-prt1\Trabalho-prt1\
+build_property.ProjectDir = /home/walther/work/projetos/psg-tads-2024-1-back-bd-waltherHumberto/codigo/Trabalho-prt1/Trabalho-prt1/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
