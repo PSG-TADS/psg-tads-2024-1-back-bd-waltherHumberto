@@ -1,18 +1,15 @@
 # Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
-
+Sistema Completo de Locadora de Carros
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+* Walther Humberto de Souza
+  
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Leonardo Vilela Cardoso
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+## Componentes Utilizados
+* C# 6.0 (ou superior)
+  * Entity Framework
+    * SQL Express como banco de dados 
+      * Swagger para testes
