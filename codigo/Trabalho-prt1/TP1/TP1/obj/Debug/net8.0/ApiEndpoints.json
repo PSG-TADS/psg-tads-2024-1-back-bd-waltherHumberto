@@ -1,8 +1,26 @@
 [
   {
+    "ContainingType": "LocadoraVeiculos.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_0",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "LocadoraVeiculos.Controllers.ClienteController",
     "Method": "GetClientes",
-    "RelativePath": "api/cliente/Cliente",
+    "RelativePath": "api/Cliente",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +40,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ClienteController",
     "Method": "PostCliente",
-    "RelativePath": "api/cliente/Cliente",
+    "RelativePath": "api/Cliente",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,7 +66,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ClienteController",
     "Method": "GetCliente",
-    "RelativePath": "api/cliente/Cliente/{id}",
+    "RelativePath": "api/Cliente/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,7 +92,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ClienteController",
     "Method": "PutCliente",
-    "RelativePath": "api/cliente/Cliente/{id}",
+    "RelativePath": "api/Cliente/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -95,7 +113,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ClienteController",
     "Method": "DeleteCliente",
-    "RelativePath": "api/cliente/Cliente/{id}",
+    "RelativePath": "api/Cliente/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -111,7 +129,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ReservaController",
     "Method": "GetReservas",
-    "RelativePath": "api/reserva/Reserva",
+    "RelativePath": "api/Reserva",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -131,7 +149,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ReservaController",
     "Method": "PostReserva",
-    "RelativePath": "api/reserva/Reserva",
+    "RelativePath": "api/Reserva",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -157,7 +175,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ReservaController",
     "Method": "GetReserva",
-    "RelativePath": "api/reserva/Reserva/{id}",
+    "RelativePath": "api/Reserva/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -183,7 +201,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ReservaController",
     "Method": "PutReserva",
-    "RelativePath": "api/reserva/Reserva/{id}",
+    "RelativePath": "api/Reserva/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -204,7 +222,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.ReservaController",
     "Method": "DeleteReserva",
-    "RelativePath": "api/reserva/Reserva/{id}",
+    "RelativePath": "api/Reserva/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -220,7 +238,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.VeiculoController",
     "Method": "GetVeiculos",
-    "RelativePath": "api/veiculo/Veiculo",
+    "RelativePath": "api/Veiculo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -240,7 +258,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.VeiculoController",
     "Method": "PostVeiculo",
-    "RelativePath": "api/veiculo/Veiculo",
+    "RelativePath": "api/Veiculo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -266,7 +284,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.VeiculoController",
     "Method": "GetVeiculo",
-    "RelativePath": "api/veiculo/Veiculo/{id}",
+    "RelativePath": "api/Veiculo/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -292,7 +310,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.VeiculoController",
     "Method": "PutVeiculo",
-    "RelativePath": "api/veiculo/Veiculo/{id}",
+    "RelativePath": "api/Veiculo/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -313,7 +331,7 @@
   {
     "ContainingType": "LocadoraVeiculos.Controllers.VeiculoController",
     "Method": "DeleteVeiculo",
-    "RelativePath": "api/veiculo/Veiculo/{id}",
+    "RelativePath": "api/Veiculo/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

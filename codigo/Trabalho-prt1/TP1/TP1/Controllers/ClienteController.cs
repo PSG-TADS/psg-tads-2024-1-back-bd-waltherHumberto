@@ -8,7 +8,7 @@ using LocadoraVeiculos.Models;
 
 namespace LocadoraVeiculos.Controllers
 {
-    [Route("api/cliente/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ClienteController : ControllerBase
     {

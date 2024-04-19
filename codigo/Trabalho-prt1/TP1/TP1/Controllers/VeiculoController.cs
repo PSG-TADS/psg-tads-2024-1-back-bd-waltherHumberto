@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LocadoraVeiculos.Controllers
 {
-    [Route("api/veiculo/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class VeiculoController : ControllerBase
     {
