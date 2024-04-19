@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\migrations\\20240419024607_loca-tads.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\migrations\\20240419024607_loca-tads.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\migrations\\20240419024607_loca-tads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\migrations\\20240419024607_loca-tads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\migrations\\20240419024607_loca-tads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\migrations\\20240419024607_loca-tads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|solutionrelative:tp1\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CE56A57-75DA-4B68-9FD1-410E5EABC987}|TP1\\LocadoraVeiculos.csproj|c:\\users\\walth\\onedrive\\documentos\\github\\psg-tads-2024-1-back-bd-waltherhumberto\\codigo\\trabalho-prt1\\tp1\\tp1\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,31 +67,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "20240419024607_loca-tads.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Migrations\\20240419024607_loca-tads.Designer.cs",
+              "RelativeDocumentMoniker": "TP1\\Migrations\\20240419024607_loca-tads.Designer.cs",
+              "ToolTip": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Migrations\\20240419024607_loca-tads.Designer.cs",
+              "RelativeToolTip": "TP1\\Migrations\\20240419024607_loca-tads.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T03:36:25.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TP1\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Properties\\launchSettings.json",
               "RelativeToolTip": "TP1\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAABRwA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-19T02:49:46.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "20240419024607_loca-tads.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Migrations\\20240419024607_loca-tads.cs",
               "RelativeDocumentMoniker": "TP1\\Migrations\\20240419024607_loca-tads.cs",
               "ToolTip": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Migrations\\20240419024607_loca-tads.cs",
               "RelativeToolTip": "TP1\\Migrations\\20240419024607_loca-tads.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:46:07.899Z"
+              "WhenOpened": "2024-04-19T02:46:07.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Models\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "TP1\\Models\\ApplicationContext.cs",
@@ -100,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "TP1\\Models\\Cliente.cs",
@@ -108,11 +126,12 @@
               "RelativeToolTip": "TP1\\Models\\Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:32:19.226Z"
+              "WhenOpened": "2024-04-19T02:32:19.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Veiculo.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Models\\Veiculo.cs",
               "RelativeDocumentMoniker": "TP1\\Models\\Veiculo.cs",
@@ -120,23 +139,25 @@
               "RelativeToolTip": "TP1\\Models\\Veiculo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:32:13.412Z"
+              "WhenOpened": "2024-04-19T02:32:13.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Reserva.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Models\\Reserva.cs",
               "RelativeDocumentMoniker": "TP1\\Models\\Reserva.cs",
               "ToolTip": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Models\\Reserva.cs",
               "RelativeToolTip": "TP1\\Models\\Reserva.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:28:02.22Z"
+              "WhenOpened": "2024-04-19T02:28:02.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\appsettings.json",
               "RelativeDocumentMoniker": "TP1\\appsettings.json",
@@ -149,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ReservaController.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Controllers\\ReservaController.cs",
               "RelativeDocumentMoniker": "TP1\\Controllers\\ReservaController.cs",
@@ -162,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "TP1\\Controllers\\ClienteController.cs",
@@ -170,11 +191,12 @@
               "RelativeToolTip": "TP1\\Controllers\\ClienteController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:13:25.61Z"
+              "WhenOpened": "2024-04-19T02:13:25.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "VeiculoController.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Controllers\\VeiculoController.cs",
               "RelativeDocumentMoniker": "TP1\\Controllers\\VeiculoController.cs",
@@ -187,13 +209,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Program.cs",
               "RelativeDocumentMoniker": "TP1\\Program.cs",
               "ToolTip": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Program.cs",
               "RelativeToolTip": "TP1\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBUAAAAuAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvx4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T01:43:55.646Z",
               "EditorCaption": ""

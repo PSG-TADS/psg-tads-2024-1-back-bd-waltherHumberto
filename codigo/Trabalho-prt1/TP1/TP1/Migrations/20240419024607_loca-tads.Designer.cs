@@ -13,7 +13,7 @@ namespace LocadoraVeiculos.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
     [Migration("20240419024607_loca-tads")]
-    partial class locatads
+    partial class LocaTads
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
