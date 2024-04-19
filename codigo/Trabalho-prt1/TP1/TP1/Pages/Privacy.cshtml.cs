@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace TP1.Pages
+namespace LocadoraVeiculos.Pages
 {
     public class PrivacyModel : PageModel
     {

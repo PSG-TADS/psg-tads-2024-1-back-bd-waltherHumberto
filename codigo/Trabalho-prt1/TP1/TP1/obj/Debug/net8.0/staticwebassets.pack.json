@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TP1.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TP1.bundle.scp.css"
+      "Id": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LocadoraVeiculos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LocadoraVeiculos.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LocadoraVeiculos.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TP1.props",
-      "PackagePath": "build\\TP1.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LocadoraVeiculos.props",
+      "PackagePath": "build\\LocadoraVeiculos.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TP1.props",
-      "PackagePath": "buildMultiTargeting\\TP1.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LocadoraVeiculos.props",
+      "PackagePath": "buildMultiTargeting\\LocadoraVeiculos.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TP1.props",
-      "PackagePath": "buildTransitive\\TP1.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LocadoraVeiculos.props",
+      "PackagePath": "buildTransitive\\LocadoraVeiculos.props"
     }
   ],
   "ElementsToRemove": []

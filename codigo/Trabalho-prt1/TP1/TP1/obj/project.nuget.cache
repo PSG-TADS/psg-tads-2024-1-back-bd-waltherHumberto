@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z47Nn1xCIcePIWN4THcMyIFXA2SnB2+7bm98/VBf0EksciLa3BFA0mPyeRQQhpPTNr4jEUOAIpqB6vkWQgKfgA==",
+  "dgSpecHash": "KfH7jEAlNzay6AvV7Wc247BoxvcMt8GaleNRBGWojEb5cGd88fz7kXJ1qb6HaCfplvYWF18QDtGRWRJd3qr7iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\TP1.csproj",
+  "projectFilePath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\LocadoraVeiculos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\walth\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\walth\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

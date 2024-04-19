@@ -4390,9 +4390,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\TP1.csproj",
-      "projectName": "TP1",
-      "projectPath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\TP1.csproj",
+      "projectUniqueName": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\LocadoraVeiculos.csproj",
+      "projectName": "LocadoraVeiculos",
+      "projectPath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\LocadoraVeiculos.csproj",
       "packagesPath": "C:\\Users\\walth\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\obj\\",
       "projectStyle": "PackageReference",

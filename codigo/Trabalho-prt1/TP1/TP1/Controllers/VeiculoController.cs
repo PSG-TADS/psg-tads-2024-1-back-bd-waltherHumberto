@@ -1,113 +1,103 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
+using LocadoraVeiculos.Models;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace LocadoraVeiculos
+namespace LocadoraVeiculos.Controllers
 {
-    internal class VeiculoController
+    [Route("api/veiculo/[controller]")]
+    [ApiController]
+    public class VeiculoController : ControllerBase
     {
-        // Definição da classe Veiculo
-        public class Veiculo
+        private readonly ApplicationContext _context;
+
+        public VeiculoController(ApplicationContext context)
         {
-            [Key]
-            public int VeiculoID { get; set; } // Chave primária
-
-            public string? Marca { get; set; }
-            public string? Modelo { get; set; }
-            public int Ano { get; set; }
-            public string? Status { get; set; }
-            public string? Placa { get; set; }
-            public string? Cor { get; set; }
-
-            // Relacionamento de navegação com a classe Reserva
-            public ICollection<Reserva>? Reservas { get; set; }
+            _context = context;
         }
 
-        // Definição da classe Cliente
-        public class Cliente
+        // GET: api/Veiculo
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Veiculo>>> GetVeiculos()
         {
-            [Key]
-            public int ClienteID { get; set; } // Chave primária
-
-            public string? Nome { get; set; }
-            public string? Endereco { get; set; }
-            public string? Telefone { get; set; }
-
-            // Relacionamento de navegação com a classe Reserva
-            public ICollection<Reserva>? Reservas { get; set; }
+            return await _context.Veiculos.ToListAsync();
         }
 
-        // Definição da classe Reserva
-        public class Reserva
+        // GET: api/Veiculo/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Veiculo>> GetVeiculo(int id)
         {
-            [Key]
-            public int ReservaID { get; set; } // Chave primária
+            var veiculo = await _context.Veiculos.FindAsync(id);
 
-            public int VeiculoID { get; set; } // Chave estrangeira para Veiculo
-            public int ClienteID { get; set; } // Chave estrangeira para Cliente
-            public DateTime DataInicio { get; set; }
-            public DateTime DataFim { get; set; }
-
-            // Definição da chave estrangeira para o relacionamento com Veiculo
-            [ForeignKey("VeiculoID")]
-            public Veiculo? Veiculo { get; set; }
-
-            // Definição da chave estrangeira para o relacionamento com Cliente
-            [ForeignKey("ClienteID")]
-            public Cliente? Cliente { get; set; }
-        }
-
-
-        // Definição do contexto do banco de dados
-        public class ApplicationContext : DbContext
-        {
-
-            public ApplicationContext(DbContextOptions<ApplicationContext> options) :
-             base(options)
-            { }
-            // Define as tabelas do banco de dados
-            public DbSet<Veiculo> Veiculos { get; set; }
-            public DbSet<Cliente> Clientes { get; set; }
-            public DbSet<Reserva> Reservas { get; set; }
-
-            // Configurações de conexão com o banco de dados
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            if (veiculo == null)
             {
-                _ = optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS; Database= LocaVeiculos;Trusted_Connection=True;TrustServerCertificate=True;");
-            }
-        }
-
-        // Método principal
-        static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<ApplicationContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectiion"));
-            });
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                return NotFound();
             }
 
-            app.UseHttpsRedirection();
+            return veiculo;
+        }
 
-            app.UseAuthorization();
+        // PUT: api/Veiculo/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutVeiculo(int id, Veiculo veiculo)
+        {
+            if (id != veiculo.VeiculoID)
+            {
+                return BadRequest();
+            }
 
-            app.MapControllers();
+            _context.Entry(veiculo).State = EntityState.Modified;
 
-            app.Run();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!VeiculoExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
 
+            return NoContent();
+        }
+
+        // POST: api/Veiculo
+        [HttpPost]
+        public async Task<ActionResult<Veiculo>> PostVeiculo(Veiculo veiculo)
+        {
+            _context.Veiculos.Add(veiculo);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetVeiculo", new { id = veiculo.VeiculoID }, veiculo);
+        }
+
+        // DELETE: api/Veiculo/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteVeiculo(int id)
+        {
+            var veiculo = await _context.Veiculos.FindAsync(id);
+            if (veiculo == null)
+            {
+                return NotFound();
+            }
+
+            _context.Veiculos.Remove(veiculo);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool VeiculoExists(int id)
+        {
+            return _context.Veiculos.Any(e => e.VeiculoID == id);
         }
     }
 }

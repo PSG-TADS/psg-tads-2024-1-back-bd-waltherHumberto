@@ -1,113 +1,104 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+using LocadoraVeiculos.Models;
 
-namespace LocadoraVeiculos
+
+namespace LocadoraVeiculos.Controllers
 {
-    internal class ClienteController
+    [Route("api/cliente/[controller]")]
+    [ApiController]
+    public class ClienteController : ControllerBase
     {
-        // Definição da classe Veiculo
-        public class Veiculo
+        private readonly ApplicationContext _context;
+
+        public ClienteController(ApplicationContext context)
         {
-            [Key]
-            public int VeiculoID { get; set; } // Chave primária
-
-            public string? Marca { get; set; }
-            public string? Modelo { get; set; }
-            public int Ano { get; set; }
-            public string? Status { get; set; }
-            public string? Placa { get; set; }
-            public string? Cor { get; set; }
-
-            // Relacionamento de navegação com a classe Reserva
-            public ICollection<Reserva>? Reservas { get; set; }
+            _context = context;
         }
 
-        // Definição da classe Cliente
-        public class Cliente
+        // GET: api/Cliente
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
         {
-            [Key]
-            public int ClienteID { get; set; } // Chave primária
-
-            public string? Nome { get; set; }
-            public string? Endereco { get; set; }
-            public string? Telefone { get; set; }
-
-            // Relacionamento de navegação com a classe Reserva
-            public ICollection<Reserva>? Reservas { get; set; }
+            return await _context.Clientes.ToListAsync();
         }
 
-        // Definição da classe Reserva
-        public class Reserva
+        // GET: api/Cliente/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Cliente>> GetCliente(int id)
         {
-            [Key]
-            public int ReservaID { get; set; } // Chave primária
+            var cliente = await _context.Clientes.FindAsync(id);
 
-            public int VeiculoID { get; set; } // Chave estrangeira para Veiculo
-            public int ClienteID { get; set; } // Chave estrangeira para Cliente
-            public DateTime DataInicio { get; set; }
-            public DateTime DataFim { get; set; }
-
-            // Definição da chave estrangeira para o relacionamento com Veiculo
-            [ForeignKey("VeiculoID")]
-            public Veiculo? Veiculo { get; set; }
-
-            // Definição da chave estrangeira para o relacionamento com Cliente
-            [ForeignKey("ClienteID")]
-            public Cliente? Cliente { get; set; }
-        }
-
-
-        // Definição do contexto do banco de dados
-        public class ApplicationContext : DbContext
-        {
-
-            public ApplicationContext(DbContextOptions<ApplicationContext> options) :
-             base(options)
-            { }
-            // Define as tabelas do banco de dados
-            public DbSet<Veiculo> Veiculos { get; set; }
-            public DbSet<Cliente> Clientes { get; set; }
-            public DbSet<Reserva> Reservas { get; set; }
-
-            // Configurações de conexão com o banco de dados
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            if (cliente == null)
             {
-                _ = optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS; Database= LocaVeiculos;Trusted_Connection=True;TrustServerCertificate=True;");
-            }
-        }
-
-        // Método principal
-        static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<ApplicationContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectiion"));
-            });
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                return NotFound();
             }
 
-            app.UseHttpsRedirection();
+            return cliente;
+        }
 
-            app.UseAuthorization();
+        // PUT: api/Cliente/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCliente(int id, Cliente cliente)
+        {
+            if (id != cliente.ClienteID)
+            {
+                return BadRequest();
+            }
 
-            app.MapControllers();
+            _context.Entry(cliente).State = EntityState.Modified;
 
-            app.Run();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ClienteExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
 
+            return NoContent();
+        }
+
+        // POST: api/Cliente
+        [HttpPost]
+        public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
+        {
+            _context.Clientes.Add(cliente);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetCliente", new { id = cliente.ClienteID }, cliente);
+        }
+
+        // DELETE: api/Cliente/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCliente(int id)
+        {
+            var cliente = await _context.Clientes.FindAsync(id);
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
+            _context.Clientes.Remove(cliente);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool ClienteExists(int id)
+        {
+            return _context.Clientes.Any(e => e.ClienteID == id);
         }
     }
 }
