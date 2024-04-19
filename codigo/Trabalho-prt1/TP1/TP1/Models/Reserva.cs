@@ -14,6 +14,8 @@ namespace LocadoraVeiculos.Models
         public int VeiculoID { get; set; } // Chave estrangeira para Veiculo
         public int ClienteID { get; set; } // Chave estrangeira para Cliente
 
+        public int Preco { get; set; }
+
         public DateTime DataInicio { get; set; }
         public DateTime DataFim { get; set; }
 

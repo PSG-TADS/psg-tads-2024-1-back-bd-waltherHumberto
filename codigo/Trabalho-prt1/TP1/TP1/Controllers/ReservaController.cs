@@ -74,7 +74,7 @@ namespace LocadoraVeiculos.Controllers
         public async Task<ActionResult<Reserva>> PostReserva(Reserva reserva)
         {
             var veiculo = await _context.Veiculos.FindAsync(reserva.VeiculoID);
-            if (veiculo == null || veiculo.Status != "Disponível")
+            if (veiculo == null || veiculo.Status != "Disponivel")
             {
                 return BadRequest("Veículo não disponível para reserva.");
             }

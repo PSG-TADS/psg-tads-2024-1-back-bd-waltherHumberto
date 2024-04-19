@@ -19,7 +19,11 @@ namespace LocadoraVeiculos.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Endereco = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    CNH = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -52,6 +56,7 @@ namespace LocadoraVeiculos.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     VeiculoID = table.Column<int>(type: "int", nullable: false),
                     ClienteID = table.Column<int>(type: "int", nullable: false),
+                    Preco = table.Column<int>(type: "int", nullable: false),
                     DataInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DataFim = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },

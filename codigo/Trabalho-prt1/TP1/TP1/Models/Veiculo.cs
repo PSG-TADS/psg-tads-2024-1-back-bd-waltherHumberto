@@ -20,5 +20,7 @@ namespace LocadoraVeiculos.Models
         public string? Cor { get; set; }
 
         // Relacionamento de navegação com a classe Reserva
+        public ICollection<Reserva>? Reservas { get; set; }
+
     }
 }

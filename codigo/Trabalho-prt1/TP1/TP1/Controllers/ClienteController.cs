@@ -74,6 +74,17 @@ namespace LocadoraVeiculos.Controllers
         [HttpPost]
         public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
         {
+
+            if (!ValidarDataNascimento(cliente.DataNascimento))
+            {
+                return BadRequest("Data de nascimento inválida.");
+            }
+
+            else if (!ValidarCPF(cliente.CPF))
+            {
+                return BadRequest("CPF inválido.");
+            }
+
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
 
@@ -100,5 +111,58 @@ namespace LocadoraVeiculos.Controllers
         {
             return _context.Clientes.Any(e => e.ClienteID == id);
         }
+
+        private bool ValidarCPF(string cpf)
+        {
+            // Implementação básica de validação de CPF
+            int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
+            int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
+            string tempCpf;
+            string digito;
+            int soma;
+            int resto;
+            cpf = cpf.Trim();
+            cpf = cpf.Replace(".", "").Replace("-", "");
+            if (cpf.Length != 11)
+                return false;
+            tempCpf = cpf.Substring(0, 9);
+            soma = 0;
+
+            for (int i = 0; i < 9; i++)
+                soma += int.Parse(tempCpf[i].ToString()) * multiplicador1[i];
+            resto = soma % 11;
+            if (resto < 2)
+                resto = 0;
+            else
+                resto = 11 - resto;
+            digito = resto.ToString();
+            tempCpf = tempCpf + digito;
+            soma = 0;
+            for (int i = 0; i < 10; i++)
+                soma += int.Parse(tempCpf[i].ToString()) * multiplicador2[i];
+            resto = soma % 11;
+            if (resto < 2)
+                resto = 0;
+            else
+                resto = 11 - resto;
+            digito = digito + resto.ToString();
+            return cpf.EndsWith(digito);
+        }
+
+        private bool ValidarDataNascimento(DateTime? dataNascimento)
+        {
+            // A data de nascimento não deve ser no futuro e a pessoa deve ter pelo menos 18 anos
+            if (dataNascimento == null)
+            {
+                return false;
+            }
+            var idade = DateTime.Now.Year - dataNascimento.Value.Year;
+            if (DateTime.Now.Month < dataNascimento.Value.Month || (DateTime.Now.Month == dataNascimento.Value.Month && DateTime.Now.Day < dataNascimento.Value.Day))
+            {
+                idade--;
+            }
+            return idade >= 18 && dataNascimento.Value <= DateTime.Now;
+        }
+
     }
 }

@@ -30,6 +30,18 @@ namespace LocadoraVeiculos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClienteID"));
 
+                    b.Property<string>("CNH")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CPF")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DataNascimento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Endereco")
                         .HasColumnType("nvarchar(max)");
 
@@ -60,6 +72,9 @@ namespace LocadoraVeiculos.Migrations
 
                     b.Property<DateTime>("DataInicio")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("Preco")
+                        .HasColumnType("int");
 
                     b.Property<int>("VeiculoID")
                         .HasColumnType("int");
