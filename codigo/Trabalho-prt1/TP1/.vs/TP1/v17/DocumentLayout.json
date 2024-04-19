@@ -70,7 +70,8 @@
               "RelativeToolTip": "TP1\\Migrations\\20240419024607_loca-tads.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T03:36:25.952Z"
+              "WhenOpened": "2024-04-19T03:36:25.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,9 +81,10 @@
               "RelativeDocumentMoniker": "TP1\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Properties\\launchSettings.json",
               "RelativeToolTip": "TP1\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAgAAAAAAAAAAABRwA8AAAAuAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAABhwA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-19T02:49:46.431Z"
+              "WhenOpened": "2024-04-19T02:49:46.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +96,8 @@
               "RelativeToolTip": "TP1\\Migrations\\20240419024607_loca-tads.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:46:07.899Z"
+              "WhenOpened": "2024-04-19T02:46:07.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -106,7 +109,8 @@
               "RelativeToolTip": "TP1\\Models\\ApplicationContext.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:33:58.145Z"
+              "WhenOpened": "2024-04-19T02:33:58.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -157,7 +161,8 @@
               "RelativeToolTip": "TP1\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-19T02:18:38.587Z"
+              "WhenOpened": "2024-04-19T02:18:38.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -206,7 +211,7 @@
               "RelativeDocumentMoniker": "TP1\\Program.cs",
               "ToolTip": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\TP1\\TP1\\Program.cs",
               "RelativeToolTip": "TP1\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBoAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T01:43:55.646Z",
               "EditorCaption": ""
