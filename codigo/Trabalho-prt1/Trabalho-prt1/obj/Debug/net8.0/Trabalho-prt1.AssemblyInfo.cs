@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trabalho-prt1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd71a2cb1cb41ee441c0ea75b53cab7f8b7da5e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trabalho-prt1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trabalho-prt1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

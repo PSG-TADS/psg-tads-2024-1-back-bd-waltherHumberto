@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj": {}
+    "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj": {
+    "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
+        "projectUniqueName": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
         "projectName": "Trabalho-prt1",
-        "projectPath": "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
+        "projectPath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
         "packagesPath": "C:\\Users\\walth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\obj\\",
+        "outputPath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\Trabalho-prt1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

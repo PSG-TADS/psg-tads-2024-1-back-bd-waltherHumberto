@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rQZ3SlbfgyZbnUW0rg7WVYVpnS4sfi2hwSjToQGQh8kyapksqKQFyneP3Gh5+Oe+ThSKxslIcckQUYwUqEI9QQ==",
+  "dgSpecHash": "6hk6T3Ms5YP4mAseUhN76M6GI/5JbHE4A/7PIsMv/k7bM4qNl7Z4MTg5KPzoPYcTgwq/xhYhl5bBSvfWP/HLQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\walth\\Downloads\\teste\\Trabalho_Pratico_1\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
+  "projectFilePath": "C:\\Users\\walth\\OneDrive\\Documentos\\GitHub\\psg-tads-2024-1-back-bd-waltherHumberto\\codigo\\Trabalho-prt1\\Trabalho-prt1\\Trabalho-prt1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\walth\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\walth\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
